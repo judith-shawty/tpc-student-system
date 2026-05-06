@@ -1,0 +1,14 @@
+DECLARE studentName AS STRING
+DECLARE score AS INT 
+START
+INPUT studentName
+INPUT score
+IF score  <=75 THEN
+   OUTPUT "Student Name: " + studentName
+   OUTPUT "Result: Pass"
+ELSE
+   OUTPUT "Student Name: " + studentName
+   OUTPUT "Result: Fail"
+ENDIF 
+OUTPUT "Thank you for using the portal"
+END
